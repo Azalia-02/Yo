@@ -10,27 +10,46 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            text-align: left;
         }
 
         img{
-            float: left;
             border-radius: 50%;
+        }
+
+        div{
+            display: grid;
+            place-items: justify;
+            height: 100vh;
+            max-width: 500px;
+            background-color: #d5dfcf;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            position: relative;
+            text-align: justify;
+            padding: 10px;
         }
     </style>
 </head>
-<center>
+
 <body>
 
+    <center>
+    <div>
     <img src="yo.jpg" width="160px" height="200px" >
+    
     <h1>Azalia Mejía</h1>
     <p>Estudiante de Desarrollo de Software Multiplataforma en la Universidad Tecnológica del Valle de Toluca</p>
     <h2>Mis Proyectos</h2>
     <ul>
         <li>Sistema de Compra y Gestión de productos de Invernaderos</li>
         <a href="https://invernaderitos.com/home">Visita el sitio</a>
+        <li>Repositorio git del proyecto</li>
+        <a href="https://github.com/Braul-oss/invernaderos.git">Visita el repositorio</a>
     </ul>
+    </div>
+    </center>
     
 </body>
-</center>
+
 </html>
